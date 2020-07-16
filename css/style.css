@@ -229,7 +229,7 @@ body {
   }
   .offer-detail-sec .offer-des {
     margin-bottom: 50px;
-    padding-bottom: 0px;
+    padding: 5%;
     height: auto;
     margin: 0px;
   }
