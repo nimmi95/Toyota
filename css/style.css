@@ -167,6 +167,8 @@ body {
 }
 
 .offer-detail-sec h1{
+  font-size: 60px;
+  font-weight: 500;
   text-shadow: 5px 10px 5px #aaaaaa;
 }
 
@@ -261,13 +263,15 @@ body {
 
 .car-care-sec {
   
+background-color: rgba(128, 128, 128, 0.877);
   
-
-  background-color: rgba(128, 128, 128, 0.877);
-  padding: 5% 2%;
+padding: 3% 2%;
 }
 
 .car-care-sec h1{
+  color: #000000;
+  font-size: 60px;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
   text-shadow: 5px 10px 5px #00000057;
 }
@@ -317,7 +321,7 @@ body {
 }
 
 .car-care-sec .owl-carousel .active img {
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px #00000063;
   border: 1px solid gray;
   margin-bottom: 5%;
 }
@@ -329,12 +333,26 @@ body {
   }
 }
 
+@media (max-width: 567px) {
+  
+  .car-care-sec h1{
+  font-size: 35px;
+  }
+}
+
 /* visit-us */
 
 .visit-us {
   padding: 2%;
 
   background-color: #ffffff; /* Used if the image is unavailable */
+}
+.visit-us h1{
+  color: #000000;
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 5px 10px 5px #00000057;
 }
 
 .visit-1 {
@@ -347,16 +365,16 @@ body {
 }
 
 .visit-1 .visit-add{
-  padding: 5% 2% 0% 2%;
+  padding: 5% 5% 0% 5%;
 }
 .visit-1 p {
-text-align: center;
+
   color: black;
   font-weight: 500;
 }
 
 .visit-1 h6 {
-  text-align: center;
+  
   color: black;
   font-weight: 500;
 }
@@ -366,3 +384,11 @@ text-align: center;
     height: 1200px;
   }
 }
+
+@media (max-width: 567px) {
+  
+  .visit-us h1{
+  font-size: 35px;
+  }
+}
+
