@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,400;0,500;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
@@ -42,12 +49,18 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                  <a class="nav-item nav-link active" href="#"
+                  <a class="nav-item nav-link active" href="#" id="header-link"
                     >HOME <span class="sr-only">(current)</span></a
                   >
-                  <a class="nav-item nav-link" href="#offer">OFFER DETAILS</a>
-                  <a class="nav-item nav-link" href="#care">CAR CARE</a>
-                  <a class="nav-item nav-link" href="#visit">VISIT US</a>
+                  <a class="nav-item nav-link" id="offer-link" href="#offer"
+                    >OFFER DETAILS</a
+                  >
+                  <a class="nav-item nav-link" id="care-link" href="#care"
+                    >CAR CARE</a
+                  >
+                  <a class="nav-item nav-link" id="visit-link" href="#visit"
+                    >VISIT US</a
+                  >
                 </div>
               </div>
             </nav>
@@ -75,26 +88,31 @@
     </section>
 
     <section class="offer-detail-sec d-flex align-items-center" id="offer">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
+          <div class="col-12 d-flex justify-content-center mb-2">
+            <h1>OFFER DETAILS</h1>
+          </div>
           <div class="col-12 col-md-6 offer-des">
             <h4 class="mb-5">
-              Navana Toyota has brought this special offer for our loyal
-              customers so that they can keep their Hybrid vehicle in ship
-              shape.
+              <span class="red">
+                Navana Toyota has brought this special offer
+              </span>
+              for our loyal customers so that they can keep their Hybrid vehicle
+              in ship shape.
             </h4>
             <h5 class="mb-3">Special service campaign includes:</h5>
-            <h6>Vehicle Disinfection as per Toyota guideline</h6>
-            <h6>Hybrid System Checkup as per Toyota guideline</h6>
+            <h6>&#9632; Vehicle Disinfection as per Toyota guideline</h6>
+            <h6>&#9632; Hybrid System Checkup as per Toyota guideline</h6>
             <h6>
-              Hybrid Battery Servicing as per Toyota guideline (Diagnosis,
-              wiring harness cleaning, individual battery cell post cleaning,
-              battery discharging and recharging, battery cell balancing,
-              cooling duct and fan cleaning)
+              &#9632; Hybrid Battery Servicing as per Toyota guideline
+              (Diagnosis, wiring harness cleaning, individual battery cell post
+              cleaning, battery discharging and recharging, battery cell
+              balancing, cooling duct and fan cleaning)
             </h6>
             <h6>
-              Promotional Price: BDT 5,000 (Inclusive Vat) Regular Price: BDT
-              10,000
+              &#9632; Promotional Price: BDT 5,000 (Inclusive Vat) Regular
+              Price: BDT 10,000
             </h6>
           </div>
           <div
@@ -117,14 +135,25 @@
     </section>
 
     <section class="car-care-sec d-flex align-items-center" id="care">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div
-            class="col-12 col-md-6 d-flex justify-content-center"
-          >
-            <img src="./images/car-care-1.jpg" class="img-fluid" alt="" />
+          <div class="col-12 d-flex justify-content-center mb-5">
+            <h1>CAR CARE</h1>
           </div>
-          <div class="col-12 col-md-6 care-des">
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <div class="owl-carousel owl-carousel owl-theme">
+              <div>
+                <img src="./images/car-care-1.jpg" class="img-fluid" alt="" />
+              </div>
+              <div>
+                <img src="./images/car-care-1.jpg" class="img-fluid" alt="" />
+              </div>
+              <div>
+                <img src="./images/car-care-1.jpg" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 care-des d-flex align-items-center">
             <p>
               Navana Toyota Servicing Centers take the utmost care when
               servicing your vehicles. Our team of experts are always ready to
@@ -141,25 +170,37 @@
         <div class="row">
           <div class="col-12 col-sm-4 visit-1">
             <img src="./images/location.png" class="img-fluid" alt="" />
-            <p>
-              Navana Toyota 3S Center - +880 1814 655635; +880 1971 655635; +880
-              1847 104325; +880 1814 655659 Address- 205-207 Tejgaon I/A,
-              Dhaka-1208
-            </p>
+            <div class="visit-add">
+              <h6>Navana Toyota 3S Center -</h6>
+              <h6>+880 1814 655635; +880 1971 655635;</h6>
+              <h6>+880 1847 104325; +880 1814 655659;</h6>
+              <p>
+                Address- 205-207 Tejgaon I/A, Dhaka-1208.
+              </p>
+            </div>
           </div>
           <div class="col-12 col-sm-4 visit-1">
             <img src="./images/location.png" class="img-fluid" alt="" />
-            <p>
-              Navana Toyota 2S Center- +880 1847 267952; +880 01847 001653
-              Address- 342 Tejgaon I/A, Dhaka-1208
-            </p>
+            <div class="visit-add">
+              <h6>Navana Toyota 2S Center-</h6>
+              <h6>+880 1847 267952; +880 01847 001653;</h6>
+              
+              <p>
+                Address- 342 Tejgaon I/A, Dhaka-1208.
+
+              </p>
+            </div>
           </div>
           <div class="col-12 col-sm-4 visit-1">
             <img src="./images/location.png" class="img-fluid" alt="" />
-            <p>
-              Navana Toyota Service Center Limited - +880 1847 005946; +880 1954
-              333555 Address- Road# 06, Sector# 09, Dhaka- 1230
-            </p>
+            <div class="visit-add">
+              <h6>Navana Toyota Service Center Limited - </h6>
+              <h6>+880 1847 005946; +880 1954 333555;</h6>
+             
+              <p>
+                Address- 205-207 Tejgaon I/A, Dhaka-1208.
+              </p>
+            </div>
           </div>
         </div>
       </div>
