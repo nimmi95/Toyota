@@ -166,7 +166,7 @@ body {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.offer-detail-sec h1{
+.offer-detail-sec h1 {
   font-size: 60px;
   font-weight: 500;
   text-shadow: 5px 10px 5px #aaaaaa;
@@ -220,6 +220,7 @@ body {
 }
 
 .offer-detail-sec .offer-des h6 {
+  color: #000000;
   font-weight: 400;
 }
 
@@ -255,23 +256,20 @@ body {
     padding: 5%;
   }
 
-  .offer-detail-sec h1{
-  font-size: 35px;
+  .offer-detail-sec h1 {
+    font-size: 35px;
   }
-
- 
 }
 
 /* car-care-sec */
 
 .car-care-sec {
-  
-background-color: rgba(128, 128, 128, 0.877);
-  
-padding: 3% 2%;
+  background-color: rgba(128, 128, 128, 0.877);
+
+  padding: 3% 2%;
 }
 
-.car-care-sec h1{
+.car-care-sec h1 {
   color: #000000;
   font-size: 60px;
   font-weight: 500;
@@ -281,14 +279,19 @@ padding: 3% 2%;
 
 .car-care-sec p {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
- font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.car-care-sec p .n {
+  font-size: 40px;
+  color: rgba(255, 0, 0, 0.664);
 }
 
 .car-care-sec .row {
 }
 
-.car-care-sec .care-des  {
+.car-care-sec .care-des {
   position: relative;
   font-size: 18px;
   border-radius: 10px;
@@ -297,8 +300,8 @@ padding: 3% 2%;
   background-color: #ffffff;
 }
 
-.car-care-sec .care-des ::before{
-  content: '';
+.car-care-sec .care-des ::before {
+  content: "";
   position: absolute;
   top: 2%;
   left: 2%;
@@ -309,8 +312,8 @@ padding: 3% 2%;
   border-radius: 10px;
 }
 
-.car-care-sec .care-des p{
-  color:black;
+.car-care-sec .care-des p {
+  color: black;
   font-weight: 700;
 }
 
@@ -337,9 +340,8 @@ padding: 3% 2%;
 }
 
 @media (max-width: 567px) {
-  
-  .car-care-sec h1{
-  font-size: 35px;
+  .car-care-sec h1 {
+    font-size: 35px;
   }
 }
 
@@ -350,7 +352,7 @@ padding: 3% 2%;
 
   background-color: #ffffff; /* Used if the image is unavailable */
 }
-.visit-us h1{
+.visit-us h1 {
   color: #000000;
   font-size: 60px;
   font-weight: 500;
@@ -359,7 +361,6 @@ padding: 3% 2%;
 }
 
 .visit-1 {
- 
 }
 
 .visit-1 img {
@@ -367,17 +368,15 @@ padding: 3% 2%;
   border-radius: 10px;
 }
 
-.visit-1 .visit-add{
+.visit-1 .visit-add {
   padding: 5% 5% 0% 5%;
 }
 .visit-1 p {
-
   color: black;
   font-weight: 500;
 }
 
 .visit-1 h6 {
-  
   color: black;
   font-weight: 500;
 }
@@ -389,9 +388,7 @@ padding: 3% 2%;
 }
 
 @media (max-width: 567px) {
-  
-  .visit-us h1{
-  font-size: 35px;
+  .visit-us h1 {
+    font-size: 35px;
   }
 }
-
