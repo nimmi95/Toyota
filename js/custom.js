@@ -1,10 +1,36 @@
 $(document).ready(function () {
+  $(this).scrollTop(0);
   $("#toggle").click(function () {
     $(this).toggleClass("toggle-active");
   });
 
   window.onscroll = function () {
     myFunction();
+    var top = window.scrollY;
+    console.log(top);
+    if(top<700){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      document.getElementById("header-link").className += " active";
+    }
+    else if(top>700 && top<1400){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      document.getElementById("offer-link").className += " active";
+    }
+    else if(top>1400 && top<2000){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      document.getElementById("care-link").className += " active";
+     
+    }
+
+    else if(top>2000){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      document.getElementById("visit-link").className += " active";
+     
+    }
   };
 
   function myFunction() {
