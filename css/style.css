@@ -209,9 +209,9 @@ body {
 
 .offer-detail-sec .offer-des {
   color: #ffffff;
-  background-color: #202124cc;
-  margin: 2% 0% 6% 0%;
-  padding: 2%;
+  background-color: #3d4046;
+  margin: 2% 0% 7% 0%;
+  padding: 3%;
   height: auto;
   /* border-radius: 20px; */
 }
@@ -221,11 +221,25 @@ body {
 }
 
 .offer-detail-sec .offer-des h5 {
-  color: #ffffff;
+  color: red;
+  /* color: #ffffff; */
+  text-transform: uppercase;
 }
 .offer-detail-sec .offer-des h6 {
   color: #ffffff;
   font-weight: 400;
+  display: inline;
+ 
+}
+
+.offer-detail-sec i{
+  display: inline;
+  color: red;
+}
+
+.offer-detail-sec .point{
+    padding-left: 20px;
+    line-height: 30px;
 }
 
 @media (max-width: 767px) {
@@ -251,7 +265,7 @@ body {
     padding-bottom: 0px;
     height: auto;
     margin: 0px;
-    padding: 5%;
+    padding: 2%;
   }
 
   .offer-detail-sec h1 {
@@ -264,6 +278,11 @@ body {
 
   .offer-detail-sec h4 {
     font-size: 18px;
+  }
+
+  .offer-detail-sec .offer-des h6 {
+  font-size: 12px;
+   
   }
 }
 @media (min-width: 1400px) {
