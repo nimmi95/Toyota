@@ -252,11 +252,14 @@ body {
     padding-bottom: 0px;
     height: auto;
     margin: 0px;
+    padding: 5%;
   }
 
   .offer-detail-sec h1{
   font-size: 35px;
   }
+
+ 
 }
 
 /* car-care-sec */
