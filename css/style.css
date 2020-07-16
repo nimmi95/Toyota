@@ -266,7 +266,7 @@ body {
     font-size: 18px;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   .offer-detail-sec .owl-carousel img {
     /* border: 2px solid rgb(85, 80, 80); */
     width: 498px;
@@ -363,7 +363,7 @@ body {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   .car-care-sec .owl-carousel img {
     /* border: 2px solid rgb(85, 80, 80); */
     width: 498px;
@@ -410,6 +410,11 @@ body {
   /* .visit {
     height: 1200px;
   } */
+  .visit-us {
+    padding: 0%;
+  
+   
+  }
 }
 
 @media (max-width: 567px) {
@@ -418,6 +423,14 @@ body {
   }
 }
 
+@media (min-width: 1400px) {
+  .visit-1 img  {
+    /* border: 2px solid rgb(85, 80, 80); */
+    width: 340px;
+    height: 340px;
+  }
+}
+/* owl */
 .owl-carousel button:focus {
   outline: 0;
   border: none;
