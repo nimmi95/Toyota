@@ -177,8 +177,9 @@ body {
 }
 
 .offer-detail-sec h1 {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 500;
+  color: red;
 }
 
 .offer-detail-sec .red {
@@ -300,8 +301,8 @@ body {
 }
 
 .car-care-sec h1 {
-  color: #000000;
-  font-size: 60px;
+  color: red;
+  font-size: 45px;
   font-weight: 500;
   /* font-family: "Roboto", sans-serif; */
 }
@@ -398,8 +399,8 @@ body {
   background-color: #ffffff; /* Used if the image is unavailable */
 }
 .visit-us h1 {
-  color: #000000;
-  font-size: 60px;
+  color: red;
+  font-size: 45px;
   font-weight: 500;
   /* font-family: "Roboto", sans-serif; */
 }
