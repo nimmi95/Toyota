@@ -49,6 +49,12 @@ body {
   border: none;
 }
 
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  /* border-color: rgba(0,0,0,.1); */
+  border: none;
+}
+
 .toyota-head .bar {
   background-color: #000000;
   display: block;
@@ -72,7 +78,7 @@ body {
 }
 
 .toyota-head .toggle-active .bar {
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .toyota-head .toggle-active .top {
@@ -208,11 +214,16 @@ body {
   display: none;
 }
 
+.offer-detail-sec h1 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 .offer-detail-sec .offer-des {
   color: #ffffff;
   background-color: #3d4046;
   margin: 2% 0% 7% 0%;
-  padding: 3%;
+  padding: 2%;
   height: auto;
   /* border-radius: 20px; */
 }
@@ -222,6 +233,7 @@ body {
 }
 
 .offer-detail-sec .offer-des h5 {
+  font-weight: bold;
   color: red;
   /* color: #ffffff; */
   text-transform: uppercase;
@@ -230,32 +242,16 @@ body {
   color: #ffffff;
   font-weight: 400;
   display: inline;
- 
 }
 
-.offer-detail-sec i{
+.offer-detail-sec i {
   display: inline;
   color: red;
 }
 
-.offer-detail-sec .point{
-    padding-left: 20px;
-    line-height: 30px;
-}
-
-@media (max-width: 767px) {
-  .offer-detail-sec {
-    margin-top: 0%;
-  }
-  .offer-detail-sec .offer-des {
-    margin-bottom: 50px;
-    padding: 5%;
-    height: auto;
-  }
-
-  .offer-detail-sec .owl-carousel img {
-    /* border: 2px solid rgb(85, 80, 80); */
-  }
+.offer-detail-sec .point {
+  padding-left: 20px;
+  line-height: 30px;
 }
 
 @media (max-width: 567px) {
@@ -266,7 +262,7 @@ body {
     padding-bottom: 0px;
     height: auto;
     margin: 0px;
-    padding: 2%;
+    padding: 1%;
   }
 
   .offer-detail-sec h1 {
@@ -282,10 +278,54 @@ body {
   }
 
   .offer-detail-sec .offer-des h6 {
-  font-size: 12px;
+    font-size: 14px;
+  }
+
+  .offer-detail-sec .offer-des i{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .offer-detail-sec {
+    margin-top: 0%;
+  }
+  .offer-detail-sec .offer-des {
+    margin-bottom: 50px;
+    padding: 2%;
+    height: auto;
+  }
+
+  .offer-detail-sec .owl-carousel img {
+    /* border: 2px solid rgb(85, 80, 80); */
+  }
+
+  .offer-detail-sec .offer-des h6 {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .offer-detail-sec .offer-des h4 {
+    font-size: 16px;
+  }
+
+  .offer-detail-sec .offer-des h5 {
+    font-size: 14px;
+  }
+  .offer-detail-sec .offer-des h6 {
+    font-size: 12px;
+  
+  }
+
+  .offer-detail-sec .red {
+  
+    font-size: 30px;
    
   }
 }
+
 @media (min-width: 1400px) {
   .offer-detail-sec .owl-carousel img {
     /* border: 2px solid rgb(85, 80, 80); */
@@ -305,6 +345,7 @@ body {
   font-size: 45px;
   font-weight: 500;
   /* font-family: "Roboto", sans-serif; */
+  padding-bottom: 20px;
 }
 
 .car-care-sec p {
@@ -312,9 +353,11 @@ body {
   /* font-family: "Raleway", sans-serif; */
   font-weight: 400;
 }
-
-.car-care-sec p .n {
+.car-care-sec p .n-big{
   font-size: 40px;
+}
+.car-care-sec p .n {
+  
   color: rgba(255, 0, 0, 0.664);
 }
 
@@ -377,10 +420,11 @@ body {
   .car-care-sec h1 {
     font-size: 35px;
   }
-  .car-care-sec p .n {
+  /* .car-care-sec p .n {
+  
     font-size: 24px;
     color: rgba(255, 0, 0, 0.664);
-  }
+  } */
 }
 
 @media (min-width: 1400px) {
@@ -416,14 +460,46 @@ body {
 .visit-1 .visit-add {
   padding: 5% 5% 0% 5%;
 }
+
+.visit-1 i{
+  font-size: 16px;
+}
 .visit-1 p {
   color: black;
   font-weight: 500;
+  font-size: 16px;
+}
+
+.visit-1 h5 {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .visit-1 h6 {
   color: black;
   font-weight: 500;
+  font-size: 16px;
+  display: inline;
+  
+}
+
+@media (max-width: 1200px) {
+  .visit-1 p {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .visit-1 h5 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .visit-1 h6 {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -432,8 +508,6 @@ body {
   } */
   .visit-us {
     padding: 0%;
-  
-   
   }
 }
 
@@ -441,15 +515,20 @@ body {
   .visit-us h1 {
     font-size: 35px;
   }
+
+  .visit-1 h6 {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 1400px) {
-  .visit-1 img  {
+  .visit-1 img {
     /* border: 2px solid rgb(85, 80, 80); */
     width: 340px;
     height: 340px;
   }
 }
+
 /* owl */
 .owl-carousel button:focus {
   outline: 0;
