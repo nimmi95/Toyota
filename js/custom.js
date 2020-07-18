@@ -4,32 +4,38 @@ $(document).ready(function () {
     $(this).toggleClass("toggle-active");
   });
 
+  document.getElementById("offer-link").addEventListener("click", function(){
+    window.scrollTo(0, 700);
+  });
+
+  document.getElementById("care-link").addEventListener("click", function(){
+    window.scrollTo(0, 1450);
+  });
+
+  document.getElementById("visit-link").addEventListener("click", function(){
+    window.scrollTo(0, 2250);
+  });
+
   window.onscroll = function () {
     myFunction();
     var top = window.scrollY;
     console.log(top);
-    if(top<700){
+    if (top < 600) {
       var current = document.getElementsByClassName("active");
       current[0].className = current[0].className.replace(" active", "");
       document.getElementById("header-link").className += " active";
-    }
-    else if(top>700 && top<1400){
+    } else if (top > 600 && top < 1400) {
       var current = document.getElementsByClassName("active");
       current[0].className = current[0].className.replace(" active", "");
       document.getElementById("offer-link").className += " active";
-    }
-    else if(top>1400 && top<2000){
+    } else if (top > 1400 && top < 2000) {
       var current = document.getElementsByClassName("active");
       current[0].className = current[0].className.replace(" active", "");
       document.getElementById("care-link").className += " active";
-     
-    }
-
-    else if(top>2000){
+    } else if (top > 2000) {
       var current = document.getElementsByClassName("active");
       current[0].className = current[0].className.replace(" active", "");
       document.getElementById("visit-link").className += " active";
-     
     }
   };
 
