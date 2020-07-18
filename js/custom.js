@@ -4,17 +4,7 @@ $(document).ready(function () {
     $(this).toggleClass("toggle-active");
   });
 
-  document.getElementById("offer-link").addEventListener("click", function(){
-    window.scrollTo(0, 700);
-  });
-
-  document.getElementById("care-link").addEventListener("click", function(){
-    window.scrollTo(0, 1450);
-  });
-
-  document.getElementById("visit-link").addEventListener("click", function(){
-    window.scrollTo(0, 2250);
-  });
+ 
 
   window.onscroll = function () {
     myFunction();
