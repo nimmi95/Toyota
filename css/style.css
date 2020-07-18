@@ -168,6 +168,14 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .toyota-banner p {
+    
+    padding: 80% 0% 0% 0%;
+   
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 40px;
@@ -294,6 +302,13 @@ body {
   .offer-detail-sec .offer-des i {
     font-size: 10px;
   }
+
+  .offer-detail-sec {
+   
+    padding: 80px 2% 2% 2%;
+   
+  }
+  
 }
 
 @media (max-width: 767px) {
@@ -437,6 +452,12 @@ body {
     font-size: 24px;
     color: rgba(255, 0, 0, 0.664);
   } */
+
+  .car-care-sec {
+   
+    padding: 100px 2% 2% 2%;
+   
+  }
 }
 
 @media (min-width: 1400px) {
@@ -450,7 +471,7 @@ body {
 /* visit-us */
 
 .visit-us {
-  padding: 100px 2% 2% 2%;
+  padding: 120px 2% 2% 2%;
 
   background-color: #ffffff; /* Used if the image is unavailable */
 }
@@ -518,7 +539,7 @@ body {
     height: 1200px;
   } */
   .visit-us {
-    padding: 0%;
+   
   }
 }
 
@@ -529,6 +550,11 @@ body {
 
   .visit-1 h6 {
     font-size: 14px;
+  }
+  .visit-us {
+   
+    padding: 80px 2% 2% 2%;
+   
   }
 }
 
