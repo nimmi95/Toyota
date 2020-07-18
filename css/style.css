@@ -38,6 +38,11 @@ body {
   border: none;
 }
 
+.navbar-brand-mnonic {
+  margin-left: 12%;
+  margin-right: 10%;
+}
+
 .navbar-light .navbar-toggler:focus {
   color: rgba(0, 0, 0, 0.5);
   outline: 0;
@@ -122,7 +127,7 @@ body {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  
+
   position: relative;
 }
 
@@ -170,9 +175,7 @@ body {
 
 @media (max-width: 600px) {
   .toyota-banner p {
-    
     padding: 80% 0% 0% 0%;
-   
   }
 }
 
@@ -304,11 +307,8 @@ body {
   }
 
   .offer-detail-sec {
-   
     padding: 80px 2% 2% 2%;
-   
   }
-  
 }
 
 @media (max-width: 767px) {
@@ -454,9 +454,7 @@ body {
   } */
 
   .car-care-sec {
-   
     padding: 100px 2% 2% 2%;
-   
   }
 }
 
@@ -539,7 +537,6 @@ body {
     height: 1200px;
   } */
   .visit-us {
-   
   }
 }
 
@@ -552,9 +549,7 @@ body {
     font-size: 14px;
   }
   .visit-us {
-   
     padding: 80px 2% 2% 2%;
-   
   }
 }
 
