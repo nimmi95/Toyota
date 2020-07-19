@@ -118,7 +118,31 @@ body {
   }
 }
 
-@media (min-width: 991px){
+@media (min-width: 3001px) {
+  .navbar-brand-mnonic {
+    width: 45%;
+    text-align: end;
+  }
+  
+}
+
+@media (min-width: 1822px) and (max-width: 3000px){
+  .navbar-brand-mnonic {
+    width: 44%;
+    text-align: end;
+  }
+  
+}
+
+@media (min-width: 1422px) and (max-width: 1821px){
+  .navbar-brand-mnonic {
+    width: 40%;
+    text-align: end;
+  }
+  
+}
+
+@media (min-width: 992px) and (max-width: 1421px){
   .navbar-brand-mnonic {
     width: 38%;
     text-align: end;
