@@ -38,9 +38,8 @@ body {
   border: none;
 }
 
-.navbar-brand-mnonic {
-  padding-left: 12%;
- 
+
+.collapse .navbar-collapse {
 }
 
 .navbar-light .navbar-toggler:focus {
@@ -118,6 +117,22 @@ body {
     cursor: pointer;
   }
 }
+
+@media (min-width: 991px){
+  .navbar-brand-mnonic {
+    width: 38%;
+    text-align: end;
+  }
+  
+}
+
+@media (min-width: 700px) and (max-width: 991px) {
+  .navbar-brand-mnonic {
+    width: 47%;
+    text-align: start;
+  }
+}
+
 
 /* toyota-banner */
 .toyota-banner {
